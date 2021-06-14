@@ -1,0 +1,42 @@
+.col-5-post-grid {
+    position: relative;
+    /* min-height: 1px; */
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 1200px) {
+  .col-5-post-grid {
+      width: 20%;
+      float: left;
+  }
+}
+
+@media (max-width: 1200px) {
+  .col-5-post-grid {
+      width: 20%;
+      float: left;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .col-5-post-grid {
+    width: 20%;
+    float: left;
+  }
+}
+
+@media (max-width: 785px) {
+  .col-5-post-grid {
+    width: 25%;
+    float: left;
+  }
+}
+
+@media (max-width: 576px) {
+    .col-5-post-grid {
+      width: 50%;
+      float: left;
+  }
+}
